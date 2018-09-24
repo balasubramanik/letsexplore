@@ -1,0 +1,61 @@
+'1.Get a string input and reverse the string with a for loop.
+'2.Get input of three floating point numbers and find the average, minimum and maximum of the three numbers ?
+'3.Input Validation Problem – Get a value with input function and make sure it is a valid integer within the range of 10 to 10000 ? Any value out of 10-10000 range should print “Not within Range”
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Shilpi''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+'Assignment -1
+def reverse(string):
+reversed_string = ""
+for i in string:
+reversed_string = i+reversed_string
+print("the reversed sting is:" ,reversed_string)
+
+
+string= input("enter the string")
+print("entered string is :" ,string)
+reverse(string)
+
+'Assignment -2
+
+total_sum = 0
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+total_sum= num1+num2+num3
+avg = total_sum/3
+print("avaerage is :",avg)
+
+
+def largest(num1, num2, num3):
+if (num1 > num2) and (num1 > num3):
+largest_num = num1
+elif (num2 > num1) and (num2 > num3):
+largest_num = num2
+else:
+largest_num = num3
+print("The largest of the 3 numbers is : ", largest_num)
+
+def smallest(num1, num2, num3):
+if (num1 < num2) and (num1 < num3):
+smallest_num = num1
+elif (num2 < num1) and (num2 < num3):
+smallest_num = num2
+else:
+smallest_num = num3
+print("The smallest of the 3 numbers is : ", smallest_num)
+
+largest(num1,num2,num3)
+smallest(num1,num2,num3
+
+
+'3rd Assignment 
+
+n= int(input("enter the number:"))
+if n in range(10,1000):
+print( " %s is in the range"%str(n))
+else :
+print("The number is outside the given range.")
