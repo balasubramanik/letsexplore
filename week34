@@ -1,0 +1,120 @@
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Sanket''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'Assignment 1
+x = 6546
+z = 1234
+y = 'opstechit itrss'
+
+#Concatenate
+#str(x) + str(z)
+
+#Repetation
+#str(x) * 6
+
+#Slicing
+#str(x)[2:]
+
+#Indexing
+#str(x)[0]
+
+#Find
+#str(x).find('4')
+
+#Replace
+#str(x).replace('4', ' Finally some real string')
+
+#Split
+#y.split()
+
+#Count
+#str(x).count('6')
+
+#upper
+#y.upper()
+
+#max
+#max(str(x))
+
+#min
+#min(str(x))
+
+#Isalpha
+#str(x).isalpha()
+
+'Assignment 2:
+Python does not allow extend function for tuples, So I have used concatenation.
+
+tuple1 = ('january', 'February', 'March')
+tuple2 = ('April', 'May')
+
+tuple3 = tuple1 + tuple2
+
+print(tuple3)
+
+'Assignment 3:
+my_set1 = {2, 4, 6, 8, 9, 3, 5};
+my_set2 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+# union
+print("Union :", my_set1 | my_set2)
+
+# difference
+print("Difference :", my_set1 - my_set2)
+
+# intersection
+print("Intersection :", my_set1 & my_set2) 
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Frederic''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'conshow case concatenation
+
+str1="hello"
+str2="world"
+print(str1+str2)
+
+#repeat function
+print(str1*3)
+
+#slicing
+print(str1[:2])
+
+#indexing
+string3=(['a','b','c','d'])
+print(string3[1])
+
+string5="Learning python"
+quote='learning python'
+result=(quote.find('python'))
+print(result)
+
+string6="learning basics"
+quote="learning basics"
+newquote="learning coding"
+result=(quote.replace('basics','coding'))
+print(result)
+
+
+quote="hello world"
+print(quote.split('o'))
+
+quote="fredericc"
+print(quote.count('c'))
+
+string="fredericc"
+print(string.upper())
+
+#isalpha string
+name="Fredericc"
+print(name.isalpha())
+
+name="Big2win"
+print(name.isalpha())
+
+a=[1,2,3,4,5,6,7,8]
+print(min(a))
+print(max(a))
+
+
+
