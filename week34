@@ -1,3 +1,16 @@
+'Assignment 1:
+'Statement: Define 2 Strings with Integers values & show case concatenation, repetition, slicing, indexing, find, replace, split, count, upper, max, min, isalpha & print the results. 
+'Output: Accurate results on execution. 
+
+'Assignment 2:
+'Statement: Add 3 string values to a Tuple and extend the tuple with 2 additional values. 
+'Output: Print the tuple and the values should reflect including the extended ones. 
+
+'Assignment 3:
+'Statement: Create 2 sets and show the Union, Difference & Intersection. Define values as = {2,4,6,8,9,3,5} & = {1,2,3,4,5,6,7,8,9}
+'Output: Accurate Union, Diff & Intersection results on printing the output. 
+
+
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ''''''''''''''''''''''Sanket''''''''''''''''''''''''''''
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''
