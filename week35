@@ -1,0 +1,49 @@
+
+'Statement: Write a program using For Loop with the below lyric of a rhyme as the output. Note: Use If, elif & else to build this program. Using Print “String” for all the below statements wouldn’t be considered as a suitable program. 
+'Result: 
+'There were 10 in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.
+'There were 9 in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.
+'There were 8 in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.
+'There were 7 in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.
+'There were 6 in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.
+'There were 5 in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.
+'There were 4 in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.
+'There were 3 in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.
+'There were 2 in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.
+'There was 1 in a bed and the little one said "Good night!".
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Sanket''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+for quant in range(10,0,-1):
+    if quant >1 :
+        print("There were", quant,"in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.")
+        if quant > 2:
+            suffix=str(quant)+"bottles of beer on the wall"
+        else:
+            suffix = '1 bottle of beer on the wall'
+    elif quant ==1 :
+        print('There was 1 in a bed and the little one said "Good night!".')
+        
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Shilpi''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+for i in range(11):
+    if(i>0 and i<10):
+     a = 11-i
+     print ("There were "+ str(a) +" in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.")
+    elif(i==10):
+        print('There was 1 in a bed and the little one said Good night!')
+        
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Fredericc'''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+for i in range(11):
+    if(i>0 and i<10):
+        print ('There were',11-i, 'in a bed and the little one said roll over, roll over. So they all rolled over and 1 fell out.')
+    elif(i==10):
+        print('There was 1 in a bed and the little one said Good night!')
+
