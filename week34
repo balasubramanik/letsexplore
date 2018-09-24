@@ -261,4 +261,116 @@ print(min(a))
 print(max(a))
 
 
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Shilpi''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+>>> string1="1"
+>>> string2="2"
+>>> string1+string2  // concatination
+'12'
+
+>>> print (string1*2)   // repetation
+11
+>>> print (string1*4)
+1111
+>>> string3= "shilipi"
+>>> print(string3[:4])  //slicing
+shil
+>>> my_list = ['p','r','o','b','e']   //indexing
+>>> print (my_list[0])
+p
+>>> print (my_list[3])
+b
+>>> quote = 'hello world'
+>>> result = quote.find('hello')      //find
+>>> print("Substring 'hello':", result)
+Substring 'hello': 0
+>>> print("Substring 'world':", result)
+Substring 'world': 0
+>>> print("Substring 'let it':", result)
+Substring 'let it': 0
+>>> print("Substring 'is':", result)
+Substring 'is': 0
+>>> result = quote.find('world')
+
+>>> result  = quote.find('is')
+>>> print("substring 'is':,",result)
+substring 'is':, -1
+
+>>> new_string= quote.replace('world','shilpi') // replace
+>>> print(new_string)
+hello shilpi
+>>> print(quote.capitalize())   //capitalize
+Hello world
+
+>>> print(quote.split('o'))     //split
+['hell', ' w', 'rld']
+>>> print(quote.split(' '))
+['hello', 'world']
+>>> substring = "o"
+>>> count=quote.count(substring)    //count
+>>> print("the count is:" ,count)
+the count is: 2
+>>> print(quote.upper())    //upper
+HELLO WORLD
+
+>>> a=[2,5,4]                     //max
+>>> print(max(a))
+5
+>>> print(min(a))                    //min
+2
+>>> print(quote.isalpha())      //isalpha
+False
+>>> name="shilpikaushik"
+>>> print(quote.isalpha())
+False
+>>> print(name.isalpha())
+True
+	
+
+Assignment 2:
+
+Statement: Add 3 string values to a Tuple and extend the tuple with 2 additional values.
+
+Output: Print the tuple and the values should reflect including the extended ones.
+
+>>> tuple= (4,5,6)
+>>> print(tuple)
+(4, 5, 6)
+
+>>> tuple =tuple + (9,8)
+>>> print(tuple)
+(4, 5, 6, 9, 8)
+
+
+Assignment 3:
+
+Statement: Create 2 sets and show the Union, Difference & Intersection. Define values as <my_set1> = {2,4,6,8,9,3,5} & <my_set2> = {1,2,3,4,5,6,7,8,9}
+
+Output: Accurate Union, Diff & Intersection results on printing the output.
+
+>>> my_set1 = {2,4,6,8,9,3,5}
+>>> my_set2 = {1,2,3,4,5,6,7,8,9}
+>>> print('my_set1 U my_set2 =', my_set1.union(my_set2))
+my_set1 U my_set2 = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+>>> print(my_set1.union(my_set2))   //AUB -A union B
+{1, 2, 3, 4, 5, 6, 7, 8, 9}
+>>> print(my_set1.intersection(my_set2))    //A intersection B
+{2, 3, 4, 5, 6, 8, 9}
+>>>
+>>> print(my_set1.difference(my_set2))      // A difference B A-B
+set()
+>>> my_set1.difference(my_set2)
+set()
+>>> my_set1.difference(my_set2)
+set()
+>>> my_set2.difference(my_set1)                       // B-A
+{1, 7}
+>>> 
+	
+
+
 
