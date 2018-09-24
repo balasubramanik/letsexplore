@@ -1,2 +1,0 @@
-# letsexplore
-Weekly Coding Exercise
