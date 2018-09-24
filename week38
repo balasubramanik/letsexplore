@@ -1,0 +1,29 @@
+'Take an integer value for the below question from the user and print the result as mentioned below & also share the price/km for the mileage. (example: Consider fuel price as INR. 80. If 40 is the input from the user, divide 80/40 and print, “Good Mileage! You spend 2 rupees/km”. If the input is 10, print “Very Bad! You spend 8 rupees/km”. 
+
+'Question: What is your bike’s mileage?
+'Input:
+'Anything apart from an integer = “Please enter a valid input”
+'>=40 = Good
+'30 - 39 = Average
+'20 – 29 = Bad
+'<=19 = Very Bad
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Shilpi''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+import sys
+fuel_price=80
+try:
+num= int(input("what is your bike milege:"))
+except ValueError:
+print("\n Please enter a valid input")
+sys.exit(0)
+if (num >= 40 ): 
+print("Good Mileage! You spend" ,fuel_price/num ,"rupees/km")
+elif num in range(30,39):
+print("average Milege! You spend" ,fuel_price/num ,"rupees/km")
+elif num in range(20,29):
+print("bad Milege!You spend" ,fuel_price/num ,"rupees/km")
+else:
+print("very bad Milege!You spend" ,fuel_price/num ,"rupees/km")
