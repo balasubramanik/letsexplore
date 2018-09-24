@@ -1,0 +1,131 @@
+'Take an integer value for the below question from the user and print the result as mentioned below. 
+'Question: What is your bike’s mileage?
+'Input:
+'Anything apart from an integer = “Please enter a valid input”
+'>=40 = Good
+'30 - 39 = Average
+'20 – 29 = Bad
+'<=19 = Very Bad
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Shilpi''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+import sys
+try:
+num= int(input("what is your bike milege:"))
+except ValueError:
+print("\n Please enter a valid input")
+sys.exit(0)
+if (num >= 40 ): 
+print("good milege")
+elif num in range(30,39):
+print("average miege")
+elif num in range(20,29):
+print("bad milege")
+else:
+print("very bad milege")
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Thiru''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+def Milleage(Get_input):
+	if Get_input >= 40 :
+		print("Good ")
+	elif Get_input in  range(30,39) :
+		print("Average")
+	elif Get_input in range(20,29) :
+		print("Bad")
+	elif Get_input <= 19 :
+		print("Very Bad")
+
+
+Get_input = input("Enter you Bike's Milleage")
+
+
+if Get_input.isnumeric() :
+	Milleage(int(Get_input))
+else :
+	print("Not an Number")
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Fredericc''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+mile=int(input('What is your bike’s mileage? '))
+if (mile>=40):
+print('Good')
+elif mile in range (30,39):
+print('average')
+elif mile in range (20,29):
+print('bad')
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Nitesh''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+#//Taking user input
+User_input = int(input("What is your bike's Mileage:  "))
+#Converting user input to int()
+mileage = User_input
+if mileage <= 0:
+    print("Please enter a valid number: ")
+
+#Conditional satement
+while mileage>0:
+
+        if mileage<=19:
+            print("You are going bankrupt soon")
+        elif mileage<=29:
+            print("BAD")
+        elif mileage<=39:
+            print("Average")
+        elif mileage <=40:
+            print("Very Good")
+        elif mileage<=99:
+            print("You would go places mate!")
+
+        else:
+            print("You are driving a solar car")
+
+#Enter ctrl+C to end infinite loop
+
+
+
+if (mile<=19):
+print('very bad')
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Sanket''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+def input_Number(mileage):
+while True:
+try:
+user_Input = int(input(mileage))
+except ValueError:
+print("Not an integer! Try again.")
+continue
+else:
+return user_Input
+break
+
+
+mile=input_Number('What is your bike’s mileage? ')
+if (mile<=0):
+print('Invalid input, No biker gang membership for you')
+
+elif (mile<=19):
+print("Mehh")
+
+elif (mile<=29):
+print("You need tune up badly")
+
+elif (mile<=39):
+print("Average")
+
+elif (mile>=40):
+input("Pretty good, May I know bike model?")
