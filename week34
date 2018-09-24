@@ -12,8 +12,139 @@
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Thiru''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+String1 = "12345"
+String2 = "67890"
+
+# Printing Values of String
+print ("Default values of String1= " + String1 + " And String2= " + String2 )
+
+#String Addition !
+print (100* "-")
+print ("String Addition !! of String1 and String2 =" ,(String1 + String2) ,end = "\n")
+print (100* "-")
+#Repetition 
+print("Repeat!!")
+print ("Repeat String1 Twice = ",end= " ")
+print (2 * String1)
+
+print("Repeat String2 Four Times = ",end = " ")
+print (4 * String2)
+
+print("Repeat String1 + String 2 Twice =",end = " ")
+print (2 * (String1 + String2))
+print (100* "-")
+
+
+#Slicing 
+print ("Slices!!")
+print("Slice from 2 till 4(excludes location 4) of String1=" ,String1[2:4])
+print("Slice from -4 till -1 of String2=" ,String2[-4:-1])
+print (100* "-")
+
+#Indexing
+print("Indexing!!")
+print("String1 Index0=" +  String1[0] + " Index[3]=" + String1[3])
+print(100* "-")
+
+#Find
+print("Find")
+Found = String1.find("0")
+if Found != -1 :
+	print("0 Found in String1 At Index Location",Found)
+else :
+	print("0 Not Found in String1")
+
+Found = String2.find("0")
+if Found != -1 :
+	print("0 Found in String2 At Index Location",Found)
+else :
+	print("0 Not Found in String2")
+	
+print(100* "-")
+
+#replace
+print("Replace")
+String1=String1.replace("3","399")
+print("Replace 3 is String1 with 399 and String 1 becomes " + String1)
+String2=String2.replace("0","11")
+print("Replace 0 is String2 with 11 and String 2 becomes " + String2)
+
+print(100* "-")
+
+
+#split
+print("Split")
+print("Split String1 into Three parts with 2 & 4 as Splitters " ,str(String1.split("2")).split("4"))
+print("Split String2 into Two parts with 2 (which doesnt get splitted)" ,String2.split("2"))
+print(100* "-")
+
+#count
+print("Count!")
+print("String1 ={} Length ={} ".format(String1,len(String1)))
+print("String2 ={} Length ={} ".format(String2,len(String2)))
+print(100* "-")
+
+#upper
+print("to Upper Case")
+print("String1 to Upper case (nothing is supposed to happen)",String1.upper())
+print("Replacing '399' in String1 with 'three'")
+String1=String1.replace("399","three")
+print("String1 to Upper case (It is supposed to work)",String1.upper())
+print(100* "-")
+
+#Max and Min 
+print("Max and Min")
+print("Max = {} and Min = {} of String1 = {}".format(max(String1),min(String1),String1))
+print("Max = {} and Min = {} of String2 = {}".format(max(String2),min(String2),String2))
+print(100* "-")
+
+#IsAlpha
+print("Is it Alpha/AlphaNumeric or an Number ??")
+print("String1 = {} is Numeric? = {} AlphaNumeric? = {} or Only Alphabet? = {}".format(String1,String1.isnumeric(),String1.isalnum(),String1.isalpha()))
+print("String2 = {} is Numeric? = {} AlphaNumeric? = {} or Only Alphabet? = {}".format(String2,String2.isnumeric(),String2.isalnum(),String2.isalpha()))
+print(100* "-")
+
+'Assignment 2
+Tuple1 = ("One","Two","Three")
+
+print ("Orginal Tuple")
+print(Tuple1)
+print (100 * "-")
+
+Tuple1 = Tuple1 + ("4" , "5")
+
+print("Appended Tuple")
+print(Tuple1)
+print (100* "-")
+
+'Assignment 3
+
+#Define Sets
+my_set1 = {2,4,6,8,9,3,5}
+my_set2 = {1,2,3,4,5,6,7,8,9}
+
+print("Union of my_set1 and my_set2")
+print(my_set1.union(my_set2))
+print(100 * "-")
+
+
+# A - B != B - A
+print("Difference of my_set1 and my_set2")
+print(my_set1.difference(my_set2))
+print("Difference of my_set2 and my_set1")
+print(my_set2.difference(my_set1))
+print(100 * "-")
+
+print("Intersection of my_set1 and my_set2")
+print(my_set1.intersection(my_set2))
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ''''''''''''''''''''''Sanket''''''''''''''''''''''''''''
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
 'Assignment 1
 x = 6546
 z = 1234
