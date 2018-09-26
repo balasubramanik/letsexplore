@@ -6,6 +6,30 @@
 '30 - 39 = Average
 '20 – 29 = Bad
 '<=19 = Very Bad
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Gonzalo''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+#exercise 37
+#Take an integer value for the below question from the user and print the result as mentioned below.
+bike = True
+while(bike):
+                mileage = input("What is your bike’s mileage? ")
+                try:
+                                numb_mileage = int(mileage)
+                                if numb_mileage >= 40:
+                                                result = "good"
+                                elif 30<= numb_mileage >= 39:
+                                                result = "average"
+                                elif 20<= numb_mileage >= 29:
+                                                result = "bad"
+                                else:
+                                                result = "very Bad"
+                                
+                                print("Your bike mileage is " + result)
+                                bike = False
+                
+                except:
+                                print("Please enter a valid input")
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''
