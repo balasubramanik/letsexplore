@@ -27,3 +27,54 @@ elif num in range(20,29):
 print("bad Milege!You spend" ,fuel_price/num ,"rupees/km")
 else:
 print("very bad Milege!You spend" ,fuel_price/num ,"rupees/km")
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Sanket''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+def input_Number(mileage):
+    while True:
+        try:
+            user_Input = int(input(mileage))
+        except ValueError:
+            print("Not an integer! Try again.")
+            continue
+        else:
+            return user_Input
+            break
+
+
+mile=input_Number('What is your bike’s mileage? ')
+if (mile<=0):
+    print('Invalid input, No biker gang membership for you!')
+
+elif (mile<=19):
+    print("Mehh!")
+
+elif (mile<=29):
+    print("You need tune up badly!")
+
+elif (mile<=39):
+    print("Average!")
+
+elif (mile>=40):
+    print("Pretty good!")
+
+print("You spend" , 83/mile, "rupees/km")
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''Fredericc'''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+mile=int(input('What is your bike’s mileage? '))
+if (mile>=40):
+    print("Good mileage, you spend ", 80/mile, "rupees per km")
+elif mile in range (30,39):
+    print("average mileage, you spend", 80/mile, "rupees per km")
+elif mile in range (20,29):
+    print("bad mileage, you spend", 80/mile,  "rupees per km")
+if (mile<=19):
+    print("very bad mileage, you spend", 80/mile, "rupees per km")
+
+
+
